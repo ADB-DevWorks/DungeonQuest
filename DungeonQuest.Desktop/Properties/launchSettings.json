@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DungeonQuest.Desktop (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "DungeonQuest.Desktop (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
