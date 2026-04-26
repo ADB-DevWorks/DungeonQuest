@@ -6,4 +6,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="GameState\" />
+    <Folder Include="Models\BoardObjects\" />
+    <Folder Include="Models\Entities\Heros\" />
+    <Folder Include="Models\Entities\Monsters\" />
+    <Folder Include="Models\Items\Artifacts\" />
+    <Folder Include="Models\Items\Armor\" />
+    <Folder Include="Models\Items\Consumables\" />
+    <Folder Include="Models\Items\Weapons\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
 </Project>
