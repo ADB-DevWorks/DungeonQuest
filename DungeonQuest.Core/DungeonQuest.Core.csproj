@@ -15,7 +15,6 @@
     <Folder Include="Models\Items\Armor\" />
     <Folder Include="Models\Items\Consumables\" />
     <Folder Include="Models\Items\Weapons\" />
-    <Folder Include="Services\" />
   </ItemGroup>
 
 </Project>
