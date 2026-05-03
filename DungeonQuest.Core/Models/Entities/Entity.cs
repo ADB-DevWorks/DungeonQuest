@@ -1,4 +1,5 @@
 ﻿using DungeonQuest.Core.Models.Map;
+using DungeonQuest.Core.Services.Dice;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,20 +21,8 @@ namespace DungeonQuest.Core.Models.Entities
         public abstract void MoveEntity(Tile destionation);
         public bool CanAct => ActionPoint > 0;
 
-        public void Attack(Entity target)
-        {
-
-            if (ActionPoint >= 1)
-            {
-                //TODO: Add Attack logic
-                ActionPoint--;
-            }
-            else
-            {
-                //TODO: feedback: "No actions remaining"
-            }
-
-        }
+        public abstract void Attack(DiceService dice);
+        public abstract void Defend(DiceService dice);
 
         public void ResetActionPoints(int amount = 1)
         {
