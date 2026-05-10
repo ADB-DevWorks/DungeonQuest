@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DungeonQuest.Core.Models.Items.Consumables
+namespace DungeonQuest.Core.Models.Items.Artifacts
 {
-    internal class Consumable : Item
+    internal class Artifact : Item
     {
         public override void ApplyEffect(Hero hero)
         {
